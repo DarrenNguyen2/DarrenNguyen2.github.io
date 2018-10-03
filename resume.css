@@ -1,0 +1,64 @@
+body {
+    background-image:url("firewatch2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+}
+
+#tr1 {
+    background-color: blue;
+}
+
+#tr2 {
+    background-color: white;
+}
+
+#nav {
+   list-style-type: none;
+   margin: -8px;
+   padding: 0;
+   overflow: hidden;
+   background-color: lightgrey;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav li a:hover{
+    background-color: cyan;
+}
+
+#content {
+    border: solid black 2px;
+    width: 68%;
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgba(255,255,255,0.6);
+}
+
+table {
+    margin: auto;
+}
+
+#content ul {
+    width: 25%;
+    margin: auto;
+}
+
+hr {
+    border-color: black;
+}
