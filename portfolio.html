@@ -13,6 +13,55 @@
             <li><a href="resume.html">Resume</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
+        <div id="content">
         <h1>Darren Nguyen's Portfolio</h1>
+        <h3>Scratch Game</h3>
+        <a id="scratch"href="https://scratch.mit.edu/projects/258847985/">Bullet
+        Bill Bonanza 2</a>
+        <p>
+        <img src="gamestart.PNG">
+        <img src="gamebegin.PNG">
+        </p>
+        <h2>Description of the Game</h2>
+        <p>The objective of the game is to maneuver around the bullet bills and<br>
+        other obstacles that appear on the screen. The scoring system that's <br>
+        implemented into the game is that when you manage to kill the bullet<br>
+        bills, you earn points. The use of randomness occurs for the spawntime<br>
+        of the bullet bills and fireballs. The game is difficult to begin with<br>
+        and it gets exponentially harder as you progress. The game ends if you <br>
+        touch the bullet bills, fireballs, or if you beat the game. When you <br>
+        lose, the screen switches to a another screen that tells you that you <br>
+        died. It also plays a sound to let you know that you died.</p>
+        <h2>Reflection on the game</h2>
+        <p>I made this game in order to challenge people because I feel like <br>
+        games should be difficult and not easy and mundane. I wanted to create <br>
+        excitement or frustration in the player because of how they felt if they<br>
+        were to beat the game or when they died. An inspiration for the game would<br>
+        most likely be the Dark Souls Trilogy from FromSoftware. This is because<br>
+        those games are known for their high level of difficulty. Two successful<br>
+        points during the development of my game was getting the boss fight to <br>
+        work properly and to get the shooting mechanic during the boss fight to<br> 
+        work properly. Some obstacles that I ran into while developing the game <br>
+        was figuring out how to get the fireballs to go where the mouse pointer clicked.<br>
+        This was because the fireballs would shoot, but the fireballs glided across<br>
+        the screen rather to go to where you clicked. I solved this by making a sprite<br>
+        that was a dot and made the fireball point towards that sprite. That solved <br>
+        the problem, surprisingly. Another problem I ran into was getting the lag<br>
+        to disappear. I found out there was lag while you played the game was because<br>
+        there were so many sprites on the screen that it caused the game to lag<br>
+        and potentially freeze. I solved this by making one of the sprites delete<br>
+        the other sprites if they were touching each other. If I had more time <br>
+        to work on the game, I'd add more powerups to make the game more interesting <br>
+        and fun. I'd also make it harder somehow.</p>
+        <img src="scratchalgorithm.PNG">
+        <p>The picture above is an algorithm in the game that plays heavily in
+        removing the lag in the game. How it works is that when the bullet bills
+        clone themselves, they create duplicates at a very fast rate.<br> Because of that,
+        there are too many bullet bills filling up the screen to a point where Scratch
+        can't handle that amount or will lag or freeze.<br> So this code solves the problem by
+        making it so that if the clones touch each other, they'll delete themselves in order
+        to clear up space.</p>
+        <img src="cloning.PNG">
+        </div>
     </body>
 </html>

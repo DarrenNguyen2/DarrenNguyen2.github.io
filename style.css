@@ -58,3 +58,8 @@ table {
     width: 45%;
     margin: auto;
 }
+
+#scratch:visited {
+    text-decoration:none;
+    color:blue;
+}
